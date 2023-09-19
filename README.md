@@ -1,1 +1,1 @@
-# Resort-app
+# Weather app using node js
