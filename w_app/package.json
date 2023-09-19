@@ -1,0 +1,18 @@
+{
+  "name": "w_app",
+  "version": "1.0.0",
+  "description": "developing weather app",
+  "main": "i.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amruta Bakade",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "requests": "^0.3.0"
+  }
+}
