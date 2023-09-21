@@ -21,7 +21,7 @@ const server = http.createServer((req,res,err)=>
     if(req.url == "/")
     {
         requests(
-            "http://api.openweathermap.org/data/2.5/weather?q=pune&appid=c12b23ebc36093ceec59e5610f86d2bc"
+            "http://api.openweathermap.org/data/2.5/weather?q=pune&appid=493e6b66e0758602924dbb21740b630e"
         ).on("data", (chunk)=>
         {
             let objdata = JSON.parse(chunk);
